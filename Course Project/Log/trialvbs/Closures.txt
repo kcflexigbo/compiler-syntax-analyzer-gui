@@ -1,0 +1,81 @@
+Closure(S'): < 
+Grammar 0: [ 
+Pos 0: { S'->.S, S->.EXPR;, EXPR->.EXPRorTERM, EXPR->.TERM, TERM->.TERMandFACTOR, TERM->.FACTOR, FACTOR->.notFACTOR, FACTOR->.(EXPR), FACTOR->.true, FACTOR->.false, } 
+
+Pos 1: { S'->S., } 
+] 
+ >
+
+Closure(S): < 
+Grammar 0: [ 
+Pos 0: { S->.EXPR;, EXPR->.EXPRorTERM, EXPR->.TERM, TERM->.TERMandFACTOR, TERM->.FACTOR, FACTOR->.notFACTOR, FACTOR->.(EXPR), FACTOR->.true, FACTOR->.false, } 
+
+Pos 1: { S->EXPR.;, } 
+
+Pos 2: { S->EXPR;., } 
+] 
+ >
+
+Closure(EXPR): < 
+Grammar 0: [ 
+Pos 0: { EXPR->.EXPRorTERM, EXPR->.TERM, TERM->.TERMandFACTOR, TERM->.FACTOR, FACTOR->.notFACTOR, FACTOR->.(EXPR), FACTOR->.true, FACTOR->.false, } 
+
+Pos 1: { EXPR->EXPR.orTERM, } 
+
+Pos 2: { EXPR->EXPRor.TERM, TERM->.TERMandFACTOR, TERM->.FACTOR, FACTOR->.notFACTOR, FACTOR->.(EXPR), FACTOR->.true, FACTOR->.false, } 
+
+Pos 3: { EXPR->EXPRorTERM., } 
+] 
+Grammar 1: [ 
+Pos 0: { EXPR->.TERM, TERM->.TERMandFACTOR, TERM->.FACTOR, FACTOR->.notFACTOR, FACTOR->.(EXPR), FACTOR->.true, FACTOR->.false, } 
+
+Pos 1: { EXPR->TERM., } 
+] 
+ >
+
+Closure(TERM): < 
+Grammar 0: [ 
+Pos 0: { TERM->.TERMandFACTOR, TERM->.FACTOR, FACTOR->.notFACTOR, FACTOR->.(EXPR), FACTOR->.true, FACTOR->.false, } 
+
+Pos 1: { TERM->TERM.andFACTOR, } 
+
+Pos 2: { TERM->TERMand.FACTOR, FACTOR->.notFACTOR, FACTOR->.(EXPR), FACTOR->.true, FACTOR->.false, } 
+
+Pos 3: { TERM->TERMandFACTOR., } 
+] 
+Grammar 1: [ 
+Pos 0: { TERM->.FACTOR, FACTOR->.notFACTOR, FACTOR->.(EXPR), FACTOR->.true, FACTOR->.false, } 
+
+Pos 1: { TERM->FACTOR., } 
+] 
+ >
+
+Closure(FACTOR): < 
+Grammar 0: [ 
+Pos 0: { FACTOR->.notFACTOR, } 
+
+Pos 1: { FACTOR->not.FACTOR, FACTOR->.notFACTOR, FACTOR->.(EXPR), FACTOR->.true, FACTOR->.false, } 
+
+Pos 2: { FACTOR->notFACTOR., } 
+] 
+Grammar 1: [ 
+Pos 0: { FACTOR->.(EXPR), } 
+
+Pos 1: { FACTOR->(.EXPR), EXPR->.EXPRorTERM, EXPR->.TERM, TERM->.TERMandFACTOR, TERM->.FACTOR, FACTOR->.notFACTOR, FACTOR->.(EXPR), FACTOR->.true, FACTOR->.false, } 
+
+Pos 2: { FACTOR->(EXPR.), } 
+
+Pos 3: { FACTOR->(EXPR)., } 
+] 
+Grammar 2: [ 
+Pos 0: { FACTOR->.true, } 
+
+Pos 1: { FACTOR->true., } 
+] 
+Grammar 3: [ 
+Pos 0: { FACTOR->.false, } 
+
+Pos 1: { FACTOR->false., } 
+] 
+ >
+

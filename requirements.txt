@@ -1,0 +1,4 @@
+mttkinter
+pandastable
+pandas
+openpyxl

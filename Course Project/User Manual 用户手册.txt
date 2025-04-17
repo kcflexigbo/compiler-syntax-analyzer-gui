@@ -1,0 +1,9 @@
+To run the Program:
+1. Ensure you have python installed and properly setup
+2. Run the VBScript file run.vbs (double click)
+3. To see debug/error codes run the run.bat file instead
+
+要运行该程序：
+1. 确保已安装并正确设置 Python
+2. 运行 VBScript 文件 run.vbs（双击）
+3. 要查看调试/错误代码，请运行 run.bat 文件

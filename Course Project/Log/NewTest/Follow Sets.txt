@@ -1,0 +1,12 @@
+Follow(S'): < #,  >
+
+Follow(S): < #,  >
+
+Follow(STMT): < ), ;,  >
+
+Follow(EXPR): < -, ), *, /, or, +, ;,  >
+
+Follow(TERM): < -, ), *, /, and, +, ;, or,  >
+
+Follow(FACTOR): < -, ), *, /, and, or, +, ;,  >
+

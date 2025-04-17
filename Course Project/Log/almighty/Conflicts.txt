@@ -1,0 +1,12 @@
+STATE 8: Closures:[EXPR->TERM., TERM->TERM.andFACTOR].
+ FOLLOW: {'-', '*', '+', ';', 'or', ')', '/'}, FIRST:{'and'}
+
+STATE 11: Closures:[STMT->ID.=STMT, FACTOR->ID.].
+ FOLLOW: {'-', '*', 'and', '+', ';', 'or', ')', '/'}, FIRST:{'='}
+
+STATE 13: Closures:[STMT->EXPR., EXPR->EXPR.orTERM, STMT->EXPR.+STMT, STMT->EXPR.-STMT, STMT->EXPR.*STMT, STMT->EXPR./STMT].
+ FOLLOW: {')', ';'}, FIRST:{'-', '*', '+', 'or', '/'}
+
+STATE 22: Closures:[EXPR->EXPRorTERM., TERM->TERM.andFACTOR].
+ FOLLOW: {'-', '*', '+', ';', 'or', ')', '/'}, FIRST:{'and'}
+

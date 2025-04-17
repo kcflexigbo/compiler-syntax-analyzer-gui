@@ -1,0 +1,10 @@
+S'-> S
+S-> EXPR ;
+EXPR-> EXPR or TERM
+EXPR-> TERM
+TERM-> TERM and FACTOR
+TERM-> FACTOR
+FACTOR-> not FACTOR
+FACTOR-> ( EXPR )
+FACTOR-> true
+FACTOR-> false

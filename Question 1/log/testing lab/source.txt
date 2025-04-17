@@ -1,0 +1,9 @@
+void shifter(page *p[], int a, int len)
+{
+    page *t=p[a];
+    for(int i=a; i>0; i--)
+    {
+        p[i]=p[i-1];
+    }
+    p[0]=t;
+};

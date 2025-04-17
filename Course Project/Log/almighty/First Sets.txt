@@ -1,0 +1,12 @@
+First(S'): < true, (, not, false, ID, INTEGER,  >
+
+First(S): < true, (, not, false, ID, INTEGER,  >
+
+First(STMT): < true, (, not, false, ID, INTEGER,  >
+
+First(EXPR): < true, (, not, false, ID, INTEGER,  >
+
+First(TERM): < true, (, not, false, ID, INTEGER,  >
+
+First(FACTOR): < true, (, not, false, ID, INTEGER,  >
+

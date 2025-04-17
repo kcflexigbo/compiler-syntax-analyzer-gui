@@ -1,0 +1,15 @@
+(
+-
+)
+*
+/
+and
+=
+or
++
+not
+INTEGER
+ID
+false
+true
+;

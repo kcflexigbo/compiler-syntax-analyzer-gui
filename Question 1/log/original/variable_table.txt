@@ -1,0 +1,328 @@
+Pos  Variable Names
+  1   include
+  2   iostream
+  3   using
+  4   namespace
+  5   std
+  6   void
+  7   initializer
+  8   num
+  9   void
+ 10   sorter
+ 11   arr
+ 12   k
+ 13   void
+ 14   display
+ 15   arr
+ 16   k
+ 17   void
+ 18   display
+ 19   arr
+ 20   k
+ 21   void
+ 22   swapper
+ 23   a
+ 24   b
+ 25   arr
+ 26   searcher
+ 27   arr
+ 28   n
+ 29   k
+ 30   inputter
+ 31   amount
+ 32   coinChanger
+ 33   amount
+ 34   denom
+ 35   num
+ 36   k
+ 37   void
+ 38   display
+ 39   status
+ 40   n
+ 41   arr
+ 42   k
+ 43   amount
+ 44   void
+ 45   display
+ 46   n
+ 47   arr
+ 48   k
+ 49   denom
+ 50   a
+ 51   k
+ 52   num
+ 53   Enter
+ 54   the
+ 55   denominations
+ 56   below
+ 57   Enter
+ 58   to
+ 59   exit
+ 60   endl
+ 61   i
+ 62   i
+ 63   i
+ 64   ndenom
+ 65   i
+ 66   cin
+ 67   a
+ 68   a
+ 69   a
+ 70   nError
+ 71   Please
+ 72   Retry
+ 73   endl
+ 74   i
+ 75   searcher
+ 76   denom
+ 77   a
+ 78   k
+ 79   nError
+ 80   Denomination
+ 81   duplication
+ 82   detected
+ 83   endl
+ 84   i
+ 85   denom
+ 86   i
+ 87   a
+ 88   k
+ 89   sorter
+ 90   denom
+ 91   k
+ 92   initializer
+ 93   num
+ 94   nThe
+ 95   denominations
+ 96   entered
+ 97   are
+ 98   endl
+ 99   display
+100   denom
+101   k
+102   amount
+103   inputter
+104   amount
+105   nEnterred
+106   Amount
+107   is
+108   amount
+109   endl
+110   status
+111   coinChanger
+112   amount
+113   denom
+114   num
+115   k
+116   display
+117   status
+118   num
+119   denom
+120   k
+121   amount
+122   void
+123   initializer
+124   num
+125   i
+126   i
+127   i
+128   num
+129   i
+130   void
+131   sorter
+132   arr
+133   k
+134   a
+135   i
+136   i
+137   k
+138   i
+139   a
+140   i
+141   j
+142   i
+143   j
+144   k
+145   j
+146   arr
+147   a
+148   arr
+149   j
+150   a
+151   j
+152   a
+153   i
+154   swapper
+155   i
+156   a
+157   arr
+158   void
+159   swapper
+160   a
+161   b
+162   arr
+163   arr
+164   a
+165   arr
+166   a
+167   arr
+168   b
+169   arr
+170   b
+171   arr
+172   a
+173   arr
+174   b
+175   arr
+176   a
+177   arr
+178   a
+179   arr
+180   b
+181   void
+182   display
+183   arr
+184   k
+185   i
+186   i
+187   k
+188   i
+189   i
+190   k
+191   arr
+192   i
+193   endl
+194   arr
+195   i
+196   void
+197   display
+198   arr
+199   k
+200   i
+201   i
+202   k
+203   i
+204   i
+205   k
+206   arr
+207   i
+208   endl
+209   arr
+210   i
+211   searcher
+212   arr
+213   n
+214   k
+215   i
+216   i
+217   k
+218   i
+219   arr
+220   i
+221   n
+222   return
+223   return
+224   inputter
+225   amount
+226   a
+227   nPlease
+228   Input
+229   the
+230   amount
+231   cin
+232   a
+233   a
+234   nError
+235   Please
+236   Retry
+237   endl
+238   inputter
+239   amount
+240   return
+241   amount
+242   a
+243   return
+244   coinChanger
+245   amount
+246   denom
+247   num
+248   k
+249   t
+250   p
+251   k
+252   namount
+253   amount
+254   namount
+255   t
+256   return
+257   false
+258   namount
+259   denom
+260   p
+261   namount
+262   denom
+263   p
+264   num
+265   p
+266   p
+267   p
+268   namount
+269   return
+270   true
+271   t
+272   return
+273   true
+274   void
+275   display
+276   status
+277   n
+278   arr
+279   k
+280   amount
+281   status
+282   false
+283   nThe
+284   Coin
+285   Cannot
+286   be
+287   changed
+288   using
+289   the
+290   Values
+291   given
+292   endl
+293   display
+294   n
+295   arr
+296   k
+297   nThe
+298   amount
+299   amount
+300   has
+301   been
+302   changed
+303   using
+304   the
+305   denominations
+306   to
+307   display
+308   n
+309   arr
+310   k
+311   n
+312   void
+313   display
+314   n
+315   arr
+316   k
+317   i
+318   k
+319   i
+320   i
+321   n
+322   i
+323   arr
+324   i
+325   n
+326   i
+

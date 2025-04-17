@@ -1,0 +1,10 @@
+Follow(S'): < #,  >
+
+Follow(S): < #,  >
+
+Follow(EXPR): < ;, or, ),  >
+
+Follow(TERM): < ;, or, and, ),  >
+
+Follow(FACTOR): < ;, or, and, ),  >
+

@@ -1,0 +1,6 @@
+STATE 9: Closures:[EXPR->TERM., TERM->TERM.andFACTOR].
+ FOLLOW: {';', 'or', ')'}, FIRST:{'and'}
+
+STATE 15: Closures:[EXPR->EXPRorTERM., TERM->TERM.andFACTOR].
+ FOLLOW: {';', 'or', ')'}, FIRST:{'and'}
+

@@ -1,0 +1,10 @@
+First(S'): < (, true, false, not,  >
+
+First(S): < (, true, false, not,  >
+
+First(EXPR): < (, true, false, not,  >
+
+First(TERM): < (, true, false, not,  >
+
+First(FACTOR): < (, true, false, not,  >
+
