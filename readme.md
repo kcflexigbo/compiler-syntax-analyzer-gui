@@ -76,7 +76,7 @@ python main.py
 
 ## Example Outputs 📊
 1. **Action Table** (Excel)  
-   ![Action Table Example](docs/action_table.png)
+   ![Action Table Example](imgs/action_table.png)
 
 2. **Closure Visualization**
     
